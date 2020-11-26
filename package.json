@@ -1,0 +1,29 @@
+{
+  "name": "regmash",
+  "version": "0.0.1",
+  "description": "Performant regular expression generation for strings in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdestep93/regmash.git"
+  },
+  "keywords": [
+    "regular",
+    "expression",
+    "regexp",
+    "string",
+    "algorithms"
+  ],
+  "author": "Jonathan Estep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdestep93/regmash/issues"
+  },
+  "homepage": "https://github.com/jdestep93/regmash#readme",
+  "dependencies": {
+    "string-algorithms": "^1.0.31"
+  }
+}
