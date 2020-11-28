@@ -1,4 +1,3 @@
-const { longestCommonSubstring } = require('string-algorithms');
 const { mash } = require('./src') ;
 
 // const strs = [
@@ -10,9 +9,10 @@ const { mash } = require('./src') ;
 // ]
 
 const strs = [
-    'caber',
-    'feber',
-    'er',
+    'matt',
+    'matthew',
+    'jon',
+    'jonathan'
 ]
 
 console.log(mash(strs));
