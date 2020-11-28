@@ -6,22 +6,10 @@ function mash(arrStrings) {
         throw new InvalidArgumentsError('Array of strings is required.');
     }
 
-    // bacon, reckoning, argon, carbon
-    // (bac|arg|carb)on|reckoning
-
-    // argon
-    // cobaron
-    // (cobar|arg)on
-
     const replacements = {};
 
     let i = 0;
     let currentStrs = [...arrStrings];
-
-    // caber
-    // feber
-    // er
-    // ((ca|fe)b)?er
 
     main_loop:
     while (true) {
@@ -91,8 +79,6 @@ function mash(arrStrings) {
 
         i++;
     }
-
-    debugger;
 
     return Object.keys(replacements).reduce((s, r) => s.replace(r, replacements[r]), '$0');
 }
