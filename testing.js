@@ -1,12 +1,18 @@
 const { longestCommonSubstring } = require('string-algorithms');
-const { regex } = require('./src') ;
+const { mash } = require('./src') ;
+
+// const strs = [
+//     // 'baconing',
+//     // 'reckoning',
+//     'argon',
+//     'carbon',
+//     'on',
+// ]
 
 const strs = [
-    // 'baconing',
-    // 'reckoning',
-    'argon',
-    'carbon',
-
+    'caber',
+    'feber',
+    'er',
 ]
 
-console.log(regex(strs));
+console.log(mash(strs));
